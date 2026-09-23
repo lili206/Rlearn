@@ -52,7 +52,8 @@ data <- data.frame(score, group)
 # print(hedges_g)
 #--------------------------------
 
-#使用包
+#使用包install.packages("effsize")  
+# 只需安装一次
 library(effsize)
 cohen_result <- cohen.d(
   score ~ group,
